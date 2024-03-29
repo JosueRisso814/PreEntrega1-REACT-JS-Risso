@@ -20,7 +20,7 @@ function Navbar() {
         </ul>
         <div className="carrito">
           <FaShoppingCart size={25}/>
-          <span className="badge">0</span>
+          <span className="badge">2</span>
         </div>
     </nav>
   )

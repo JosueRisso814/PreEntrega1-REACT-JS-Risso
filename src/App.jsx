@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ItemListContainer greeting={'Hola me llamo Josue'} />
+      <ItemListContainer propGreeting={'Hola me llamo Josue'} />
     </>
   )
 }

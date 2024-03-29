@@ -1,9 +1,8 @@
-import './itemListContainer.css'
 //AL LLEGAR UN OBJETO COMO PROP DIRECTAMENTE LO DESESTRUCTURO 
-function CartWidget({greeting}) {
+function CartWidget({propGreeting}) {
   return (
     <>
-      <h2 className="texto-en-pantalla">{greeting}</h2>
+      <h2 className="texto-en-pantalla">{propGreeting}</h2>
     </>
   )
 }
