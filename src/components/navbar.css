@@ -1,0 +1,48 @@
+.navbar{ 
+    display: flex;
+    height: 120px;
+    background-color: pink;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.navbar-item {
+    margin-right: 1rem;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.icon {
+    margin: 1rem;
+}
+
+.badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.carrito {
+    position: relative;
+}
