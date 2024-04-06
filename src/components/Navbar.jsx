@@ -1,6 +1,7 @@
-import { FaShoppingCart } from "react-icons/fa";
 import './navbar.css'
 import icon from '../assets/icon.png'
+import CartWidget from "./CartWidget";
+
 function Navbar() {
   return (
     <nav className='navbar'>
@@ -19,7 +20,7 @@ function Navbar() {
           </li>
         </ul>
         <div className="carrito">
-          <FaShoppingCart size={25}/>
+          <CartWidget/>
           <span className="badge">2</span>
         </div>
     </nav>

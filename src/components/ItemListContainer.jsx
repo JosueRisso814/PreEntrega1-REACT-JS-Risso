@@ -1,10 +1,10 @@
 //AL LLEGAR UN OBJETO COMO PROP DIRECTAMENTE LO DESESTRUCTURO 
-function CartWidget({propGreeting}) {
+function ItemListContainer({propGreeting}) {
   return (
     <>
-      <h2 className="texto-en-pantalla">{propGreeting}</h2>
+      <h2>{propGreeting}</h2>
     </>
   )
 }
 
-export default CartWidget
+export default ItemListContainer
